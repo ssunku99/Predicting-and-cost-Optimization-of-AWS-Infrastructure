@@ -32,7 +32,7 @@ I used two datasets from two different cloud providers because thats how it work
 ## whats in this repo
 
 ```
-├── DSP_11.ipynb                  # the main notebook — everything runs from here
+├── DATA SCIENCE.ipynb                  # the main notebook — everything runs from here
 ├── aws_infrastructure_costs.csv  # AWS EC2 pricing dataset
 ├── anonymized_costs.csv          # Azure daily billing dataset
 ├── main_updated.tex              # IEEE format paper (LaTeX)
