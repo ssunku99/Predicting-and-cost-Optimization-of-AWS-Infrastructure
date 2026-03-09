@@ -26,6 +26,7 @@ I used two datasets from two different cloud providers because thats how it work
 - source: https://www.kaggle.com/datasets/berkayalan/aws-ec2-instance-comparison
 
 **Azure Anonymized Billing** — 93,605 line items of actual daily cloud spending across 50 services over 89 days (Dec 2022 to Mar 2023). I aggregated this down to daily totals for the forecasting and anomaly detection work.
+- source: https://www.kaggle.com/datasets/carrucciu/azure-costs
 
 ---
 
