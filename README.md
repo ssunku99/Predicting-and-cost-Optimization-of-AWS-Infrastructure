@@ -14,8 +14,8 @@ Both datasets need to be downloaded from Kaggle and placed in the same directory
 
 | Dataset | Rows | Filename | Source |
 |---------|------|----------|--------|
-| AWS EC2 Pricing | 7,260 | `aws_infrastructure_costs.csv` | [Kaggle — Berkay Alan](https://www.kaggle.com/datasets/berkayalan/aws-ec2-instance-comparison) |
-| Azure Billing (anonymized) | 93,605 | `anonymized_costs.csv` | [Kaggle — Carrucciu](https://www.kaggle.com/datasets/carrucciu/azure-costs) |
+| AWS EC2 Pricing | 7,260 | `aws_infrastructure_costs.csv` | [Kaggle  Berkay Alan](https://www.kaggle.com/datasets/berkayalan/aws-ec2-instance-comparison) |
+| Azure Billing (anonymized) | 93,605 | `anonymized_costs.csv` | [Kaggle  Carrucciu](https://www.kaggle.com/datasets/carrucciu/azure-costs) |
 
 ## what the notebook does
 
