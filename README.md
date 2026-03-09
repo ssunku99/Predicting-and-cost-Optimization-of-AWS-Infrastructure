@@ -15,7 +15,6 @@ This project builds an ML pipeline that predicts EC2 instance costs, forecasts d
 | AWS EC2 Pricing | 7,260 | [Kaggle — Berkay Alan](https://www.kaggle.com/datasets/berkayalan/aws-ec2-instance-comparison) |
 | Azure Billing (anonymized) | 93,605 | [Kaggle — Carrucciu](https://www.kaggle.com/datasets/carrucciu/azure-costs) |
 
-The AWS CSV is included in this repo. The Azure CSV is too large for GitHub — download it from the Kaggle link above and place `anonymized_costs.csv` in the same directory as the notebook.
 
 ## what the notebook does
 
