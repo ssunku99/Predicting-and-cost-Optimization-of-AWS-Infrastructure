@@ -1,0 +1,27 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# virtual env
+venv/
+env/
+.env/
+
+# os files
+.DS_Store
+Thumbs.db
+
+# data files too large for git
+anonymized_costs.csv
+
+# IDE
+.vscode/
+.idea/
