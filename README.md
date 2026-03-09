@@ -1,12 +1,12 @@
 # Predicting and Optimizing Cloud Infrastructure Costs
 
-**Sai Teja Sunku** — MSDS 692 Data Science Practicum I, Regis University, Spring 2026
+**Sai Teja Sunku**  MSDS 692 Data Science Practicum I, Regis University, Spring 2026
 
 ---
 
 ## about
 
-This project builds an ML pipeline that predicts EC2 instance costs, forecasts daily cloud spending, detects pricing anomalies, and quantifies how much money organizations leave on the table by sticking with on-demand pricing. It uses two datasets from two cloud providers — AWS for regression and cost optimization, Azure for time series forecasting and anomaly detection.
+This project builds an ML pipeline that predicts EC2 instance costs, forecasts daily cloud spending, detects pricing anomalies, and quantifies how much money organizations leave on the table by sticking with on-demand pricing. It uses two datasets from two cloud providers, AWS for regression and cost optimization, Azure for time series forecasting and anomaly detection.
 
 ## datasets
 
@@ -19,17 +19,17 @@ Both datasets need to be downloaded from Kaggle and placed in the same directory
 
 ## what the notebook does
 
-**Part 1 — AWS EC2 Pricing**
+**Part 1: AWS EC2 Pricing**
 - EDA: cost distributions, pricing model savings, regional pricing, correlation analysis
-- AutoML regression using FLAML (Microsoft's AutoML library) — CatBoost selected as best model, R² = 0.9999
-- Pricing anomaly detection using Isolation Forest — flags ~5% of instances as overpriced
+- AutoML regression using FLAML (Microsoft's AutoML library) CatBoost selected as best model, R² = 0.9999
+- Pricing anomaly detection using Isolation Forest  flags ~5% of instances as overpriced
 - Cost optimization analysis — reserved instances save 40-60%, spot saves ~70%
 
-**Part 2 — Azure Billing**
+**Part 2: Azure Billing**
 - Daily cost aggregation and service breakdown
 - Prophet forecasting (MAPE 6-12%) and ARIMA(2,1,2) forecasting (MAPE 8-15%)
 - Cost anomaly detection using Isolation Forest with engineered temporal features
-- Service-level volatility analysis
+- Service level volatility analysis
 
 ## results
 
@@ -61,9 +61,9 @@ pip install -r requirements.txt
 
 ## tools used
 
-- **FLAML** — AutoML (model selection + hyperparameter tuning)
-- **CatBoost** — best regression model selected by FLAML
-- **Prophet** — time series forecasting
-- **ARIMA** — time series forecasting (statsmodels)
-- **Isolation Forest** — unsupervised anomaly detection (scikit-learn)
-- **pandas, numpy, matplotlib, seaborn** — data work and visualization
+- **FLAML**: AutoML (model selection + hyperparameter tuning)
+- **CatBoost**: best regression model selected by FLAML
+- **Prophet**: time series forecasting
+- **ARIMA**: time series forecasting (statsmodels)
+- **Isolation Forest**: unsupervised anomaly detection (scikit-learn)
+- **pandas, numpy, matplotlib, seaborn**: data work and visualization
