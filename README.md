@@ -10,11 +10,12 @@ This project builds an ML pipeline that predicts EC2 instance costs, forecasts d
 
 ## datasets
 
-| Dataset | Rows | Source |
-|---------|------|--------|
-| AWS EC2 Pricing | 7,260 | [Kaggle — Berkay Alan](https://www.kaggle.com/datasets/berkayalan/aws-ec2-instance-comparison) |
-| Azure Billing (anonymized) | 93,605 | [Kaggle — Carrucciu](https://www.kaggle.com/datasets/carrucciu/azure-costs) |
+Both datasets need to be downloaded from Kaggle and placed in the same directory as the notebook.
 
+| Dataset | Rows | Filename | Source |
+|---------|------|----------|--------|
+| AWS EC2 Pricing | 7,260 | `aws_infrastructure_costs.csv` | [Kaggle — Berkay Alan](https://www.kaggle.com/datasets/berkayalan/aws-ec2-instance-comparison) |
+| Azure Billing (anonymized) | 93,605 | `anonymized_costs.csv` | [Kaggle — Carrucciu](https://www.kaggle.com/datasets/carrucciu/azure-costs) |
 
 ## what the notebook does
 
@@ -42,21 +43,18 @@ This project builds an ML pipeline that predicts EC2 instance costs, forecasts d
 
 ## how to run
 
+1. Download both CSV files from the Kaggle links above
+2. Place them in the same folder as the notebook
+3. Install dependencies:
 ```
 pip install -r requirements.txt
 ```
-
-Then open the notebook and run all cells. Make sure both CSV files are in the same directory:
-- `aws_infrastructure_costs.csv` (included in repo)
-- `anonymized_costs.csv` (download from Kaggle link above)
+4. Open `cloud prediction.ipynb` and run all cells
 
 ## repo structure
 
 ```
-├── DSP_11.ipynb                  # main notebook
-├── aws_infrastructure_costs.csv  # AWS EC2 pricing data
-├── main.tex                      # IEEE paper (LaTeX source)
-├── references.bib                # paper references
+├── cloud prediction.ipynb        # main notebook
 ├── requirements.txt              # Python dependencies
 └── README.md
 ```
