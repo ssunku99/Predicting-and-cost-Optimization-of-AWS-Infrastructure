@@ -54,8 +54,8 @@ pip install -r requirements.txt
 ## repo structure
 
 ```
-├── cloud prediction.ipynb        # main notebook
-├── requirements.txt              # Python dependencies
+├── cloud prediction.ipynb        
+├── requirements.txt            
 └── README.md
 ```
 
